@@ -1303,6 +1303,7 @@ MonoBehaviour:
   JP_Rate: 82.78
   value: 0
   finalValue: {fileID: 287159776}
+  debugText: {fileID: 1303867498}
 --- !u!4 &844590155
 Transform:
   m_ObjectHideFlags: 0
@@ -1753,8 +1754,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -56, y: -188.4}
-  m_SizeDelta: {x: 299.7253, y: 37.34703}
+  m_AnchoredPosition: {x: 50.04, y: -188.4}
+  m_SizeDelta: {x: 511.81058, y: 37.34703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303867498
 MonoBehaviour:

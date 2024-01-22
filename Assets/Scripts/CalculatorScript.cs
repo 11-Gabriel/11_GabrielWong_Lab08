@@ -12,6 +12,7 @@ public class CalculatorScript : MonoBehaviour
     public float JP_Rate = 82.78f;
     public float value;
     public Text finalValue;
+    public Text debugText;
 
     public void clear()
     {
@@ -37,11 +38,13 @@ public class CalculatorScript : MonoBehaviour
         }
         if(toggleJP.isOn == true && toggleUS.isOn == true)
         {
-            finalValue.text = "Please select only one option";
+            debugText.text = "Please select only one option";
+            finalValue.text = "Error";
         }
         else if (toggleJP.isOn == false && toggleUS.isOn == false)
         {
-            finalValue.text = "Please select an option";
+            debugText.text = "Please select an option";
+            finalValue.text = "Error";
         }
     }
 
